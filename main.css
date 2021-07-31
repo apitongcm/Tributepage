@@ -89,10 +89,7 @@ p{
     width:100vw;
     height:100vh;
     display:flex;
-    justify-content:right;
-    padding-right:100px;
-    padding-top:100px;
-    
+    justify-content:center;  
 }
 #img-caption1 {
     color:var(--color-20);
