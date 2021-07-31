@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./main.css">
     <title>Tribute Page</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 <div class="container">
@@ -13,22 +14,28 @@
         <div id="img-div">
             <img id="image" src="./elonmusk.jpg" width="100%">
             <div id="img-caption">
-                <h2>One of the <br> richest people <br> in the world.</h2>             
+                <h2 data-aos="fade-up"
+                data-aos-duration="3000">One of the <br> richest people <br> in the world.</h2>             
             </div>
         </div>
         <section id ="intro">
             <center><div class = "text">
                <p>"one of the most successful, and influencial men in tech.”</p>
-                <h1 class="hide1"><strong id="title">Elon <br></strong></h1>
-                <h1 class="hide2"><strong id="title"><div id="strong">Reeve</div></strong></h1>
-                <h1 class="hide3"><strong id="title">Musk</strong></h1>
+                <h1 class="hide1" data-aos="fade-up"
+                data-aos-duration="3000"><strong id="title">Elon <br></strong></h1>
+                <h1 class="hide2" data-aos="fade-up"
+                data-aos-duration="3000"><strong id="title"><div id="strong">Reeve</div></strong></h1>
+                <h1 class="hide3" data-aos="fade-up"
+                data-aos-duration="3000"><strong id="title">Musk</strong></h1>
 
                 <div class="slider"></div>
             </center>
             </section>
         
         <div id="img-div1">
-            <div id="img-caption1"><h2 id="qq">"Failure is an option here. If <br>things are not failing, you are <br> not innovating enough."</h2>
+            <div id="img-caption1" data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500"><h2 id="qq">"Failure is an option here. If <br>things are not failing, you are <br> not innovating enough."</h2>
             <h3 id="qqq">-Elon Musk</h3></div>
         </div>
         <div class="intro">
@@ -79,9 +86,10 @@
              
         </div>
     </div>
-
-    <script src="main.js"></script>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js" integrity="sha512-cdV6j5t5o24hkSciVrb8Ki6FveC2SgwGfLE31+ZQRHAeSRxYhAQskLkq3dLm8ZcWe1N3vBOEYmmbhzf7NTtFFQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  </body>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
 </html>
